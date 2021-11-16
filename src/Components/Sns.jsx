@@ -48,6 +48,18 @@ import React from 'react'
       <i className="share-button-icon fa fa-instagram"></i>
     </div>
   </div>
+
+  
+  <div className="share-button">
+    <div className="share-button-secondary">
+      <div className="share-button-secondary-content">
+        <a href="https://dev-k.hatenablog.com/">Hatena Blog</a>
+      </div>
+    </div>
+    <div className="share-button-primary">
+    <i className="share-button-icon fa fa-hatena"></i>
+    </div>
+  </div>
 </div>
       </div>
       

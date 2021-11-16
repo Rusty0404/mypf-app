@@ -21,7 +21,6 @@ class App extends React.Component {
   render() {
     
     return(
-      
       <div>
         <div className="background-container">
 <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="" />
@@ -31,8 +30,9 @@ class App extends React.Component {
 </div>
         <Tabs forceRenderTabPanel defaultIndex={1} >
             <TabList>
-                <Tab>Home</Tab>
-                <Tab>about</Tab>
+            
+                <Tab>HOME</Tab>
+                <Tab>ABOUT</Tab>
                 <Tab>SKILLS</Tab>
                 <Tab>WORKS</Tab>
                 <Tab>CONTACT</Tab>
@@ -75,9 +75,8 @@ class App extends React.Component {
             </TabPanel>
 
         </Tabs>
-        
       </div>
-  
+      
     )
   }
 }
